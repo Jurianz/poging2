@@ -1,3 +1,4 @@
-li{
-    text-align: center
+li a {
+    display: block;
+    width: 60px;
 }
