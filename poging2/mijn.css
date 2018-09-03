@@ -1,5 +1,6 @@
 body {
-    Background: #222
+    Background: #222;
+    display: inline;
 }
 .container{
     width: 80%;
@@ -8,4 +9,5 @@ body {
 .header{
     background: blue;
 }
+
     
