@@ -10,5 +10,8 @@ body {
 .header{
     background: blue;
 }
+li{
+   float: left 
+}
 
     
