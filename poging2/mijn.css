@@ -37,5 +37,8 @@ h1{
     color: navy;
     margin: 50,75,150
 }
+#paragraaf ul {
+    text-decoration-style: none;
+}
 
     
