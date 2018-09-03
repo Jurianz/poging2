@@ -16,6 +16,7 @@ body {
     background-color: rgb(172, 30, 30);
 }
 #menu ul li a{
+    border:1px;
     position: fixed;
     width: 100%;
     border: 1px;
