@@ -11,6 +11,7 @@ body {
    background-color: #f3f3f3;
 }
 #menu ul li{
+    text-align: center;
     float: right;
     list-style-type: none;
     margin: 0;
