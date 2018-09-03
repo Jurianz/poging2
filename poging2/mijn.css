@@ -3,7 +3,7 @@ body {
     Background: #ffffff;
     display: inline;
 }
-ul {
+#menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +14,11 @@ ul {
     top: 0;
 }
 
-li {
+#menu ul li {
     float: left;
 }
 
-li a {
+#menu ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#menu ul li a:hover {
     background-color: #111;
 }
 
