@@ -60,8 +60,10 @@ h3{
     background-color: #333;
 }
 p{
+    font-size:19px;
     color: white;
     float: left;
+    margin: 0px 0px 0px 25px;
 }
 #voorpagina h1{
     font-size: 45px;
