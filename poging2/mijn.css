@@ -1,17 +1,13 @@
 body {
     Background: #ffffff;
     display: inline;
-}
-.header{
-    background: blue;
-}
+
 #menu {
    height:50px;
    width:100px;
    background-color: #f3f3f3;
 }
 #menu ul li{
-    display: inline;
     list-style-type: none;
     margin: 0;
     padding: 0;
