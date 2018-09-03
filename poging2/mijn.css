@@ -3,7 +3,7 @@ body {
     Background: #ffffff;
     display: inline;
 }
-#menu ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
