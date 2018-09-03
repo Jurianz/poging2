@@ -11,15 +11,17 @@ body {
     background: blue;
 }
 #menu ul li{
+   width: 150px;
+   height: 50px;
+   line-height: 50px;
    float: left;
-   text-decoration: none;
+   text-align: center;
    list-style-type: none;
 }
 #menu ul li a{
     display: block;
     color: black;
-    text-align: center;
-    padding: 14px 16px;
+    text-decoration: none;
 }
 
     
