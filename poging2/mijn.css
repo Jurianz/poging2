@@ -12,7 +12,8 @@ body {
    background-color: #f3f3f3;
 }
 #menu ul li{
-   list-style-type: none;
+    float: left;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
