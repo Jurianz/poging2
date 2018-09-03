@@ -3,25 +3,35 @@ body {
     Background: #ffffff;
     display: inline;
 }
-#menu {
-   height:50px;
-   width:100px;
-   background-color: #f3f3f3;
-}
-#menu ul li{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(172, 30, 30);
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
-#menu ul li a{
-    border:1px;
-    position: fixed;
-    width: 100%;
-    border: 1px;
-    float: right;
+
+li {
+    float: left;
+}
+
+li a {
     display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 h1{
     color: navy;
