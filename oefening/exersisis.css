@@ -1,0 +1,25 @@
+
+.box {
+    width:300px;
+    background-color:lightblue;
+    border: solid 3px darkblue;
+    padding:10px;
+    margin:10px;
+
+}
+
+.container{
+    display: flex;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.left-box{
+    text-align: left;
+    
+}
+.right-box{
+    
+
+}
