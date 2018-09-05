@@ -3,7 +3,7 @@ body {
     Background: #ffffff;
     display: inline;
 }
-#menu ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +14,11 @@ body {
     top: 0;
 }
 
-#menu ul li {
+.menu ul li {
     float: left;
 }
 
-#menu ul li a {
+.menu ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ body {
     text-decoration: none;
 }
 
-#menu ul li a:hover {
+.menu ul li a:hover {
     background-color: #111;
 }
 
@@ -37,7 +37,7 @@ h1{
     color: navy;
     margin: 50,75,150
 }
-#paragraaf ul {
+.paragraaf ul {
     float: left;
     font-size: 18px;
     
@@ -45,7 +45,7 @@ h1{
 h2{
     font-size: 25px;
 }
-#index tekst div{
+.index tekst div{
     font-size: 18px;
 }
 h3{
@@ -65,7 +65,7 @@ p{
     float: left;
     margin: 0px 0px 0px 25px;
 }
-#voorpagina h1{
+.voorpagina h1{
     font-size: 45px;
     color: black;
     margin-top: 150px;
