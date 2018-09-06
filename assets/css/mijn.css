@@ -1,10 +1,14 @@
-*{
-    margin:0;
-}
+html {
+    height: 100%;
+  }
 body {
+    min-height: 100%;
     Background: #ffffff;
     font-family:Times New Roman, serif;
-   
+}
+
+*{
+    margin:0;
 }
 .menu ul {
     list-style-type: none;
@@ -49,8 +53,7 @@ body {
 }
 .paragraaf ul{
     border: 2px solid black;
-    width: 20%;
-    margin-bottom: 25%;
+    width: 170pt;
     margin-top: 5%;
     margin-left: 10%;
     border-radius: 7%
@@ -64,7 +67,7 @@ body {
 }
 .paragraaf p{
     border: 2px solid black;
-    width: 25%;
+
 }
 .frontpage h1{
     color: black;
@@ -82,7 +85,7 @@ body {
     font-size: 25px;
     text-align: center;  
 }
-.frontpage p{
+.frontpage  p{
     text-align: left;
     width: 35%;
     border: 2px solid black;
@@ -91,15 +94,27 @@ body {
     margin-bottom: 11pt;
     margin: 0 auto;
 }
-.flex-container{
+
+.flex-container {
+    width: 100%;
+    height: 100vh;
+    float:left;
     display: flex;
     justify-content: center;
 }
-.flex-container {
-    width: 100pt;
-    height: 100pt;
 
+.flex-item{
+    flex-basis: auto;
+    padding:10pt;
+}   
 
+.flex-item .profile-picture{
+    height: 376px;
+}
+
+.flex-container img{
+    width: 300px;
+    height: 256px;
 }
 .frontphoto{
     width: 100%
@@ -114,12 +129,15 @@ div{
     height: 105px;
     background-color: #333;
     position: inherit;  
+    clear: both;
 }
 .footer p{
     font-size:19px;
     color: white;
     text-align: left;
     margin: 0px 0px 0px 15px;
+    border:none;
+    
 }
 .voorpagina h1{
     font-size: 45px;
@@ -129,6 +147,7 @@ div{
 }
 .footer ul li{
     display:block;
+    padding-left: 5pt;
 }
 .footer ul li a{
     text-align: left;
