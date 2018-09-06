@@ -33,7 +33,7 @@ body {
 .header{
     height: 150px;
     width: 100%;
-    background-image: url(City_Landscape_Background.jpg);
+    background-image: url(../img/City_Landscape_Background.jpg);
     background-size: cover;
     margin-top: -23pt
     
