@@ -51,9 +51,19 @@ body {
 }
 .paragraaf ul{
     border: 2px solid black;
-    width: 25%;
+    width: 20%;
+    margin-bottom: 25%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 7%
 }
-
+.paragraaf img{
+    border:2px solid black;
+    height: 300px;
+    width: 20%;
+    float: top ;
+    margin-left: 75%
+}
 .frontpage h2{
     font-size: 25px;
     text-align: center;
@@ -113,6 +123,8 @@ div{
     color:pink;
     margin-left:100px;
     transition: 0.6s;
+    transition-duration: 2s;
+    
 }
 table,th,td{
     border: 2px solid black;
