@@ -38,15 +38,20 @@ body {
     margin: 50,75,150;
     text-align: center;
 }
-.paragraaf ul {
+.paragraaf {
     font-size: 18px;
     text-align: left;
-    border: 2px solid black;
+    
+}
+.paragraaf p ul{
     width: 25%;
-    margin-bottom:200px;
+    border: 2px solid black;
+    margin-top: 10pt;
     border-radius: 15px;
     padding:17px;
     
+    
+
 }
 .frontpage h2{
     font-size: 25px;
@@ -115,8 +120,8 @@ table{
 .monitor {
     width:60%;
     margin: 0 auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 10pt;
+    margin-top: 10pt;
     
 }
 h1, h2, h3, h4{
@@ -130,15 +135,16 @@ tr:hover {
     text-align: left;
     margin: 0 auto;
     border: 2px solid black;
-    width: 20%;
-    margin-bottom:10px;
+    width: 60%;
+    margin-bottom: 20pt;
     border-radius: 15px;
     padding:10px;
 }
 .schilderij{
-    height: 400px;
+    height: 500px;
     border: 2px solid black;
-    
+    margin-left: 800pt;
+    float: right;
 }
 .me{
     font-size: 35pt
