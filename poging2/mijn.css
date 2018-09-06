@@ -30,16 +30,6 @@ body {
 .menu ul li a:hover {
     background-color: #111;
 }
-
-.active {
-    background-color: #4CAF50;
-}
-.frontpage h1{
-    color: black;
-    margin: 50,75,150;
-    text-align: center;
-}
-
 .header{
     height: 150px;
     width: 100%;
@@ -51,6 +41,7 @@ body {
 .header h1{
     font-size: 45px;
     color: black;
+    
 }
 .paragraaf {
     font-size: 18px;
@@ -75,6 +66,11 @@ body {
     border: 2px solid black;
     width: 25%;
 }
+.frontpage h1{
+    color: black;
+    margin: 50,75,150;
+    text-align: center;
+}
 .frontpage h2{
     font-size: 25px;
     text-align: center;
@@ -94,6 +90,16 @@ body {
     padding: 5pt;
     margin-bottom: 11pt;
     margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-container {
+    width: 100pt;
+    height: 100pt;
+
+
 }
 .frontphoto{
     width: 100%
