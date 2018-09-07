@@ -55,7 +55,7 @@ body {
     border: 2px solid black;
     width: 170pt;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 20%;
     border-radius: 7%
 }
 .paragraaf img{
@@ -63,10 +63,12 @@ body {
     height: 270px;
     width: 15%;
     float: top ;
-    margin-left: 75%
+    margin-left: 75%    
 }
 .paragraaf p{
     border: 2px solid black;
+    width:20%;
+    margin-left: 20%;
 
 }
 .frontpage h1{
