@@ -149,7 +149,7 @@ div{
 }
 .footer ul li{
     display:block;
-    padding-left: 5pt;
+    padding-left: 0.4%;
 }
 .footer ul li a{
     text-align: left;
@@ -206,7 +206,72 @@ tr:hover {
     padding:10px;
 }
 .me{
-    font-size: 35pt
+    font-size: 35pt;
+}
+.explenation {
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%; 
+}
+.tedtalk{
+    margin-left: -60%;
+    margin-top: 7%
+}
+.tedexp{
+    border: 2px solid black;
+    width: 35%;
+    margin-left: 2%;
+    
+}
+.arguments{
+    margin-left: 35%;
+    margin-bottom: 3%;  
+}
+.reasons{
+    border: 2px solid black;
+    width: 35%;
+    margin-left: 50%;
+}
+.performance{
+    margin-right: 55%;
+    margin-bottom: 3%;
+}
+.perfTest{
+    border: 2px solid black;
+    width: 45%;
+    margin-bottom: 3%;
+    margin-left: 2%
+}
+.ankers{
+    margin-left: 40%;
+    margin-bottom: 2%;
+    font-size: 24px;
+}
+.ankExp{
+    border: 2px solid black;
+    margin-bottom: 4%;
+    width: 40%;
+    margin-left: 50%;
+}
+.conclusion{
+    margin-left: -55%;
+    margin-bottom: 3%;
+    font-size: 24px;
+}
+.conExp{
+    border: 2px solid black;
+    width: 35%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.moba{
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 82%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 82%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #1e5799 20%,#2989d8 50%,#207cca 51%,#7db9e8 82%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 100%;
 }
 
 
