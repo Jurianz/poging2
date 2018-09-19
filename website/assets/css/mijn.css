@@ -132,9 +132,9 @@ div{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 105px;
+    height: 115px;
     background-color: #333;
-    position: inherit;  
+    position: inherit;
     clear: both;
 }
 .footer p{
@@ -251,7 +251,7 @@ tr:hover {
 .ankers{
     margin-left: 40%;
     margin-bottom: 2%;
-    font-size: 24px;
+    font-size: 22px;
 }
 .ankExp{
     border: 2px solid black;
@@ -268,7 +268,7 @@ tr:hover {
     border: 2px solid black;
     width: 35%;
     margin-left: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
 }
 .moba{
     background: #1e5799; /* Old browsers */
@@ -277,12 +277,15 @@ tr:hover {
     background: linear-gradient(135deg, #1e5799 20%,#2989d8 50%,#207cca 51%,#7db9e8 82%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     height: 100%;
- height: 100%;
+    height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+.sourceList ul{
+    list-style-type: none;
+    text-align: left;
+}
 
 
     
