@@ -130,7 +130,7 @@ function countdown(seconds){
         console.log('Happy ${currentYear}!🎊🎊🎊')
     }
 }
-countdown(10);*/
+countdown(10);
 
 //array declaration
 const productList = [];
@@ -185,3 +185,48 @@ const average = function(anArray){
     return newAverage;
 }
 console.log(average(productPrices));
+
+
+
+let me = {
+    name: 'Jurian Zweemer',
+    age: 17,
+    previousDiploma: 'Havo',
+    favoriteVervoersmiddel: {
+        name: 'fiets',
+        amountOfWheels: '2'
+    },
+    people: [
+        'paps',
+        'mams',
+        'broeder',
+        'zuster'],
+    opdr1: function opdr1() {
+        console.log('Mijn favoriete vervoersmiddel is de ' + me.favoriteVervoersmiddel.name + ' en die heeft ' + me.favoriteVervoersmiddel.amountOfWheels + ' wielen')
+    },
+    opdr2: function opdr2() {
+        for (let i = 0; i < me.people.length; i++) {
+            const element = me.people[i];
+            console.log(me.people[i]);
+        }
+
+    }
+}
+console.table(me)
+me.opdr2()
+
+function opdr1() {
+    console.log('Mijn favoriete vervoersmiddel is de ' + me.favoriteVervoersmiddel.name + ' en die heeft ' + me.favoriteVervoersmiddel.amountOfWheels + ' wielen')
+}
+
+function opdr2(){
+    for (let i = 0; i < me.people.length; i++) {
+        const element = me.people[i];
+        console.log(me.people[i]);
+}
+
+}
+opdr1()
+opdr2()*/
+
+//Dom scripting les 8

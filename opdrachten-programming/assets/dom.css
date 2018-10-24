@@ -1,0 +1,8 @@
+.standOut{
+    color : red;
+    font-style: oblique;
+    font-weight: bold;
+}
+#name{
+    color:purple;
+}
